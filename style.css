@@ -153,6 +153,10 @@
       border-radius: var(--radius) 0 0 var(--radius);
     }
 
+    .product-price {
+      margin-block: .5rem;
+    }
+
     .product-action {
       border-radius: var(--radius);
     }
