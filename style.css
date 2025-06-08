@@ -29,6 +29,9 @@
 
   --radius: 0.625rem;
   --radius-mobile: 0.5rem;
+
+  --width-300: 18.75rem; /* 300px */
+  --width-600: 37.5rem; /* 600px */
 }
 
 *,
@@ -66,7 +69,7 @@
 
   .product-card__img {
     display: block;
-    width: 100%;
+    width: min(100%, var(--width-300));
   }
 }
 
@@ -82,7 +85,7 @@
     background-color: var(--color-white);
     border-radius: var(--radius);
     display: flex;
-    width: min(90%, 600px);
+    width: min(90%, var(--width-600));
   }
 
   .product-card__info {
