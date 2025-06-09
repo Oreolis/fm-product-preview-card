@@ -34,12 +34,7 @@
   --width-600: 37.5rem; /* 600px */
 }
 
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-  margin: 0;
-}
+
 
 @layer base {
   body {
